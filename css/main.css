@@ -2481,7 +2481,7 @@ Modificación Para el Proyecto
     background-color: #ced4da;
 }
 .loader:after {
-    background-image: url(http://ozz.test/favicon/android-icon-48x48.png);
+    background-image: url(../favicon/android-icon-48x48.png);
     background-repeat: no-repeat;
     background-size: contain;
     top: -5px;
@@ -2498,6 +2498,9 @@ Modificación Para el Proyecto
   height: 160px;
   text-align: center;
   margin: 50px auto;
+}
+.section-block p{
+  margin: 0;
 }
 .img-circle {
   border-radius: 50%;
