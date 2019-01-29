@@ -2502,6 +2502,10 @@ Modificación Para el Proyecto
 .section-block p{
   margin: 0;
 }
+.testimonial-text p{
+  line-height: normal;
+  padding-bottom: 5px;
+}
 .img-circle {
   border-radius: 50%;
 }
