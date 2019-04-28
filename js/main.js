@@ -197,14 +197,14 @@
 
         /** Testimonial carousel */
         $('.testimonial-carousel').owlCarousel({
-            autoplay: true,
-            autoplaySpeed: 1000,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: true,
+            // autoplay: true,
+            // autoplaySpeed: 1000,
+            // autoplayTimeout: 5000,
+            // autoplayHoverPause: true,
             autoWidth: false,
             autoHeight: false,
             items: 1,
-            loop: true,
+            loop: false,
             nav: false,
             dots: false,
             navText: false,
