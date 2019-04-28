@@ -197,7 +197,7 @@
 
         /** Testimonial carousel */
         $('.testimonial-carousel').owlCarousel({
-            // autoplay: true,
+            autoplay: false,
             // autoplaySpeed: 1000,
             // autoplayTimeout: 5000,
             // autoplayHoverPause: true,
