@@ -2474,6 +2474,10 @@ p.send-status .icon {
 /*
 Modificación Para el Proyecto
 ==================================================================================================== */
+#name *{
+  display: inline-block;
+  font-weight: 400 !important;
+}
 .loader-wrapper{
   background-color: #fff;
 }

@@ -87,7 +87,7 @@
 
         /** Typed.js (Text typing effect) */
         $("#typed").typed({
-            strings: ["^2100&nbsp;Soy Orlando Desarrollador web."],
+            strings: ["^2100&nbsp;Soy Desarrollador web."],
             typeSpeed: 30,
             backDelay: 750,
             loop: false,
@@ -198,8 +198,8 @@
         /** Testimonial carousel */
         $('.testimonial-carousel').owlCarousel({
             autoplay: true,
-            autoplaySpeed: 1000,
-            autoplayTimeout: 5000,
+            autoplaySpeed: 2000,
+            autoplayTimeout: 8000,
             autoplayHoverPause: true,
             autoWidth: false,
             autoHeight: false,
