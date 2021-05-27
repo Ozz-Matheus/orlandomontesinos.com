@@ -2474,7 +2474,10 @@ p.send-status .icon {
 /*
 Modificación Para el Proyecto
 ==================================================================================================== */
-#name *{
+.name{
+  display: inline-block;
+}
+.name *{
   display: inline-block;
   font-weight: 400 !important;
 }
