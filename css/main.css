@@ -1252,6 +1252,7 @@ Site Navigation
 
 .timeline-item {
   padding-bottom: 30px;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
@@ -1351,7 +1352,7 @@ Site Navigation
   border-bottom: 3px solid #212529;
 }
 
-.timeline-content h5::after {
+/*.timeline-content h5::after {
   content: '';
   display: block;
   background-color: #e1e1e1;
@@ -1360,7 +1361,7 @@ Site Navigation
   position: absolute;
   bottom: 15px;
 }
-
+*/
 @media (max-width: 767px) {
   .timeline-content h5::after {
     left: 50%;
@@ -2551,4 +2552,8 @@ Modificación Para el Proyecto
     height: 60px !important;
     z-index: 999;
   }
+}
+.timeline-content em{
+    font-style: normal;
+    display: block;
 }
